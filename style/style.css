@@ -2,15 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 
 
 body {
-  width: 80%;
   margin: 0 auto;
+  width: 70%;
   font-family: sans-serif;
-  background: rgba(67, 67, 67, 0.54);
+  background: rgb(2, 91, 0);
 }
 
 
@@ -26,7 +27,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: rgba(67, 67, 67, 0.52);
+  background: #454545;
   color: #fff;
   padding: 30px;
   line-height: 50px;
@@ -34,6 +35,11 @@ body {
   border: solid 5px #fff;
 }
 
+
+
+.a20{
+  box-shadow: 0 10px 10px 10px rgb(17, 255, 0);
+}
 
 
 
@@ -56,6 +62,7 @@ header {
   background-color: #f1f1f1;
   padding: 15px 10px;
   border-radius: 10px 10px 0 0;
+  box-shadow: 0 10px 10px 10px rgb(17, 255, 0);
 }
 
 
@@ -65,6 +72,21 @@ header {
   font-size: 18px;
   padding: 5px;
   border-radius: 50%;
+}
+
+
+
+
+
+
+.all{
+  box-shadow: 0 10px 10px 10px rgb(0, 255, 4);
+  width: 70%;
+  margin:  auto;
+  padding: 20px;
+  padding-top: 20px;
+  background: rgb(165, 106, 42);
+  border-radius: 50px;
 }
 
 
@@ -125,6 +147,7 @@ header a:hover {
   position: relative;
   text-align: center;
   top: 10px;
+  
 }
 
 
@@ -134,6 +157,7 @@ header a:hover {
 
 #slider {
   margin: 0 auto;
+  
 }
 
 
@@ -359,6 +383,8 @@ footer {
   background: #444444;
   padding: 25px;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(0, 255, 76);
+
 }
 
 
@@ -468,6 +494,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
 
 }
 
@@ -481,7 +508,8 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
+
   padding: 20px;
 }
 
@@ -531,6 +559,7 @@ main section .mk2 {
   background-repeat: no-repeat;
   background-size: cover;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
 
 }
 
@@ -544,8 +573,7 @@ main section .mk2 p {
   padding: 15px;
   font-size: 20px;
   line-height: 60px;
-
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
 }
 
 
@@ -569,6 +597,7 @@ main section .dom2 {
   background-repeat: no-repeat;
   background-size: cover;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(255, 0, 0);
 
 }
 
@@ -582,7 +611,8 @@ main section .dom2 p {
   padding: 15px;
   font-size: 20px;
   line-height: 60px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
+
 }
 
 
@@ -604,6 +634,7 @@ main section .star1 {
   background-repeat: no-repeat;
   background-size: cover;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
 
 }
 
@@ -617,7 +648,8 @@ main section .star1 p {
   padding: 15px;
   font-size: 20px;
   line-height: 60px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
+
 }
 
 
@@ -648,6 +680,7 @@ main section .wolf2 {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
 
 }
 
@@ -661,7 +694,8 @@ main section .wolf2 p {
   padding: 15px;
   font-size: 20px;
   line-height: 60px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
+
 }
 
 
@@ -676,10 +710,11 @@ main section .dk1 {
   width: 100%;
   text-align: center;
   line-height: 25px;
-  background-image: url(https://www.retrogames.cz/games/001/DOS_01.gif);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMVYtgz7Lj9Gl6MF1CRsWLx8Y5ANGzotPVa_UNOdaitonNcz1iZ3zHOYZ5CIJkFY5UXrs&usqp=CAU);
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(255, 0, 0);
 
 }
 
@@ -693,7 +728,8 @@ main section .dk1 p {
   padding: 15px;
   font-size: 20px;
   line-height: 60px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
+
 }
 
 
@@ -713,6 +749,7 @@ main section .sp1 {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
 
 }
 
@@ -727,7 +764,8 @@ main section .sp1 p {
   padding: 15px;
   font-size: 20px;
   line-height: 60px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
+
 }
 
 
@@ -755,6 +793,7 @@ main section .tur1 {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
 
 }
 
@@ -769,7 +808,8 @@ main section .tur1 p {
   padding: 15px;
   font-size: 20px;
   line-height: 60px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
+
 }
 
 
@@ -787,6 +827,7 @@ main section .abs1 {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(255, 0, 0);
 
 }
 
@@ -801,7 +842,8 @@ main section .abs1 p {
   padding: 15px;
   font-size: 20px;
   line-height: 60px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
+
 }
 
 
@@ -818,6 +860,7 @@ main section .mar1 {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
 
 }
 
@@ -832,7 +875,8 @@ main section .mar1 p {
   padding: 15px;
   font-size: 20px;
   line-height: 60px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
+
 }
 
 
@@ -855,11 +899,12 @@ main section .mar1 p {
 
 .y2 {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   background-image: url(https://cife.stanford.edu/sites/g/files/sbiybj18746/files/styles/breakpoint_2xl_2x/public/media/image/banner_news_events.jpg?itok=sitGQTwN);
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
 
 }
 
@@ -872,7 +917,7 @@ main section .mar1 p {
   height: 100%;
   display: flex;
   align-items: flex-start;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.694);
   padding: 20px;
 }
 
@@ -921,6 +966,8 @@ main section .mar1 p {
   text-align: center;
   padding: 5px;
   font-size: 20px;
+  background: #0000002a;
+  border-radius: 8px;
 }
 
 
@@ -942,6 +989,8 @@ main section .mar1 p {
   color: #fff;
   border: solid 5px #fff;
   border-radius: 10px;
+  background: #0000008e;
+
 }
 
 
@@ -955,6 +1004,7 @@ main section .mar1 p {
 
 .infor1 .info p {
   font-size: 20px;
+  
 }
 
 
@@ -972,6 +1022,8 @@ main section .mar1 p {
   line-height: 25px;
   gap: 25px;
   border: solid 5px #fff;
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
+  
 }
 
 
@@ -987,6 +1039,8 @@ main section .mar1 p {
   border: solid 2px #fff;
   border-radius: 8px;
   line-height: 30px;
+  background: #000000b4;
+
 }
 
 
@@ -996,6 +1050,8 @@ main section .mar1 p {
   border: solid 5px #fff;
   padding: 20px;
   border-radius: 10px;
+  background: #00000098;
+
 }
 
 
@@ -1006,6 +1062,8 @@ main section .mar1 p {
 .infor1 {
   padding: 20px;
   background: #dd9118;
+  box-shadow: 0 10px 10px 10px rgb(255, 0, 0);
+
 }
 
 
@@ -1020,11 +1078,12 @@ main section .mar1 p {
 
 
 
-.infor1 .me2 p {
-  text-align: center;
-  padding: 5px;
-  font-size: 20px;
-  color: #fff;
+  .infor1 .me2 p {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+    background: #0000002a;
 }
 
 
@@ -1038,13 +1097,15 @@ main section .mar1 p {
 
 
 .comming {
+  width: 100%;
   border: solid 5px #fff;
   background: #009528;
   padding: 50px;
   text-align: center;
   color: #fff;
-}
+  box-shadow: 0 10px 10px 10px rgb(25, 0, 255);
 
+}
 
 
 
